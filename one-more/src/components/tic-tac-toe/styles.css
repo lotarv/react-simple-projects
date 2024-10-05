@@ -1,0 +1,55 @@
+.game-cells{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-cell{
+    width:150px;
+    height:150px;
+    border: 3px solid hsl(0, 0%, 40%);
+    background-color: hsl(0, 0%, 90%);
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(0, 0%, 20%);
+}
+
+
+.game-cell:hover{
+    background-color: hsl(0, 0%, 85%);
+
+}
+.highlight-cell {
+    background-color: hsl(0, 77%, 68%);
+}
+.highlight-cell:hover{
+    background-color: hsl(0, 77%, 68%);
+
+}
+.game-info{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    height:100px;
+}
+
+.game-restart-button{
+    padding:10px 20px;
+    background-color: gray;
+    font-weight: bold;
+    color:white;
+    font-size: 24px;
+    border:none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
